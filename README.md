@@ -9,3 +9,7 @@ direction field plotted with plot direction field 2.py
 
 direction field plotted with plot direction field 3.py
 ![alt text](https://github.com/dong-zhan/differential_equation/blob/main/direction%20field%203.JPG)
+
+3d function plotted with plot function 3D.py
+![alt text](https://github.com/dong-zhan/differential_equation/blob/main/plot%20func%203d.JPG)
+
