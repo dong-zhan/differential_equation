@@ -1,6 +1,6 @@
 ################ plot direction field 2 #################
 def dydx(x, t):
-	return (x*x - x - 2)*(1-x)*(1-x)
+	return (x*x - x - 2)*(1-x)*(1-x)   #DE is from https://tutorial.math.lamar.edu/classes/de/directionfields.aspx
 	
 	
 def pdf(dydx, xstart, xstop, xnum, ystart, ystop, ynum, xSamples, ySamples):		#plot direction field
