@@ -16,3 +16,7 @@ direction field plotted with plot direction field 3.py
 plotted with plot direction field.py --> vector differential operator ∇ applied to a scalar field
 ![alt text](https://github.com/dong-zhan/differential_equation/blob/main/gradient.JPG)
 
+∇ · F -> divergence of a gradient field
+https://github.com/dong-zhan/differential_equation/blob/main/gradient%20field%20to%20divergence.jpg
+
+
