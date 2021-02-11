@@ -8,3 +8,9 @@ super position<br>
 plotted with root/plot function.py, parameters and functions calls are in super position.py<br>
 ![alt text](https://github.com/dong-zhan/differential_equation/blob/main/Second%20Order/super%20position.jpg)
 
+linearly dependent test<br>
+plotted with root/plot function.py, parameters and functions calls are in super linearly_dependent.py<br>
+![alt text](https://github.com/dong-zhan/differential_equation/blob/main/Second%20Order/linearly_dependent.JPG)
+
+
+
