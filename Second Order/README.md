@@ -6,4 +6,5 @@ plotted with root/plot function.py, parameters and functions calls are in ex1.2.
 
 super position<br>
 plotted with root/plot function.py, parameters and functions calls are in super position.py<br>
-https://github.com/dong-zhan/differential_equation/blob/main/Second%20Order/super%20position.jpg
+![alt text](https://github.com/dong-zhan/differential_equation/blob/main/Second%20Order/super%20position.jpg)
+
