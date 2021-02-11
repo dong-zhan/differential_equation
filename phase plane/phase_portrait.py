@@ -1,6 +1,33 @@
 # phase portrait: # dc_ex1
-# this plot the trajectory, direction field is plotted with plot direction field1.py
 
+################ plot direction field for system of DEs #################
+def pdf_sys(dxdt, dydt, xstart, xstop, xnum, ystart, ystop, ynum):
+	X, Y = np.meshgrid(np.linspace(xstart, xstop, xnum), np.linspace(ystart, ystop, ynum))
+	U = dxdt(Y, X)
+	V = dydt(Y, X)
+	N = np.sqrt(U ** 2 + V ** 2)
+	U = U/N
+	V = V/N
+	
+	plt.figure()
+	plt.title('direction field')
+	Q = plt.quiver(X, Y, U, V, angles="xy")	
+
+	plt.xlim([xstart, xstop])
+	plt.ylim([ystart, ystop])
+	plt.show()
+	
+
+# dc_ex1
+def dxdt(y, x):
+	return x+2*y
+
+def dydt(y, x):
+	return 3*x+2*y
+	
+pdf_sys(dxdt, dydt, -10, 10, 22, -10, 10, 22)
+
+################ this plots the trajectory ################
 c1 = 1
 c2 = 0.5
 	
